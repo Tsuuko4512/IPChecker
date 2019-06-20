@@ -33,6 +33,7 @@
         <title>IP Changed Checker</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="shortcut icon" href="icon/favicon.ico">
+        <link rel="apple-touch-icon" href="icon/ipchk_icon_ios.png" sizes="180x180">
 
         <!-- Twitterカード表示用 -->
         <meta name="twitter:card" content="summary" />
