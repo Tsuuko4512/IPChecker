@@ -1,5 +1,13 @@
 # ipchk
+
 A website where you can see the IP address and host.
+
+The interface is in Japanese.
+
+No logging.
+
+- http://ipchk.rf.gd/ (hosted by infinityfree)
+- http://sururun2.starfree.jp/ipchk.php (hosted by starserver free)
 
 ## Feature
 - View IP address and HOST.
