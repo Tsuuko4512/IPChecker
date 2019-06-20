@@ -2,25 +2,26 @@
     $get_ip=$_GET['ip'];
     $ip=$_SERVER['REMOTE_ADDR'];
     $ua = $_SERVER['HTTP_USER_AGENT'];
-    # curlでアクセスされた場合はip文字列のみ返す
-    if(strpos($ua,'curl') !== false){
-        echo $ip;
-        exit();
-    }
+
     # mode=ipのときにip文字列のみ返す
-    elseif($_GET['mode']=='ip'){
-        echo $ip;
+    if($_GET['mode']=='ip'){
+        echo $ip."\n";
         exit();
     }
     # mode=hostのときにhost文字列のみ返す
     elseif($_GET['mode']=='host'){
-        echo gethostbyaddr($ip);
+        echo gethostbyaddr($ip)."\n";
         exit();
     }
     # mode=jsonのときに{"ip":"IP ADDR","host":"HOST"}を返す
     elseif($_GET['mode']=='json'){
         $array = array('ip' => $ip, 'host' => gethostbyaddr($ip));
-        echo json_encode($array);
+        echo json_encode($array)."\n";
+        exit();
+    }
+    # curlでアクセスされた場合はip文字列のみ返す
+    elseif(strpos($ua,'curl') !== false){
+        echo $ip."\n";
         exit();
     }
 ?>
