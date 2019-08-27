@@ -61,7 +61,7 @@
             text-align:center;
         }
         .footer_text{
-            font-size:calc(15px + 0.5vw);
+            font-size:calc(10px + 0.5vw);
         }
         </style>
     </head>
@@ -86,7 +86,8 @@
             <footer>
                 <br>
                 <hr>
-                <p class="footer_text">Twitter : <a href="https://twitter.com/_Tsuuko_">@_Tsuuko_</a></p>
+                <p class="footer_text">Twitter : <a href="https://twitter.com/_Tsuuko_">@_Tsuuko_</a><br>
+                <a href="https://github.com/Tsuuko4512/ipchk">github.com/Tsuuko4512/ipchk</p>
             </footer>
         </div>
     </body>
