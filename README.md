@@ -13,14 +13,14 @@ No logging.
 
 ## Feature
 - View IP address and HOST.
-- Determined if the IP address has changed.
+- Determine whether the IP address has changed.
 - Returns ip on access with curl.
 
 ## Parameters
 
 ### mode=ip
 
-Return only the IP address
+Return only the IP address.
 
 ``` ipchk.php?mode=ip or /?mode=ip ```
 
