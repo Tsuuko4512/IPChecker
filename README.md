@@ -35,3 +35,7 @@ Return only the host.
 Return IP and host pairs with json.
 
 ``` ipchk.php?mode=json or /?mode=json ```
+
+## Screenshots
+![capture1](https://i.imgur.com/GDpegrr.png)
+![capture2](https://i.imgur.com/zJsLqLj.png)
